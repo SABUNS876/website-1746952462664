@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
+<title>Jasa Hosting Terpercaya</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+  body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  header h1 {
+    font-size: 2.8rem;
+    margin: 0 0 10px;
+    font-weight: 700;
+    text-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  }
+  header p {
+    font-size: 1.1rem;
+    font-weight: 400;
+    opacity: 0.9;
+    max-width: 360px;
+    margin: 0 auto;
+  }
+  .pricing-card {
+    background: #fff;
+    color: #333;
+    border-radius: 16px;
+    max-width: 360px;
+    width: 100%;
+    padding: 30px 25px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+    text-align: center;
+  }
+  .pricing-card h2 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-size: 1.8rem;
+  }
+  .price {
+    font-size: 3rem;
+    font-weight: 700;
+    margin: 0 0 15px;
+    color: #2575fc;
+  }
+  ul.features {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 30px;
+    text-align: left;
+  }
+  ul.features li {
+    margin-bottom: 12px;
+    font-size: 1rem;
+    position: relative;
+    padding-left: 24px;
+  }
+  ul.features li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #2575fc;
+    font-weight: 700;
+    font-size: 1.2rem;
+  }
+  button.pay-btn {
+    background: #2575fc;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 1.25rem;
+    padding: 14px 0;
+    width: 100%;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 6px 12px rgba(37,117,252,0.5);
+  }
+  button.pay-btn:hover,
+  button.pay-btn:focus {
+    background: #185adb;
+    outline: none;
+  }
+  footer {
+    margin-top: auto;
+    font-size: 0.9rem;
+    opacity: 0.7;
+    color: #eee;
+    text-align: center;
+    padding: 15px 10px 0;
+  }
+  @media (max-width: 400px) {
+    header h1 {
+      font-size: 2rem;
+    }
+    .pricing-card {
+      padding: 25px 20px;
+    }
+    .price {
+      font-size: 2.2rem;
+    }
+    button.pay-btn {
+      font-size: 1rem;
+      padding: 12px 0;
+    }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Jasa Hosting Terpercaya</h1>
+  <p>Dapatkan layanan hosting cepat, aman, dan tanpa gangguan untuk website Anda.</p>
+</header>
+
+<div class="pricing-card" role="region" aria-label="Paket Hosting">
+  <h2>Paket Hosting Premium</h2>
+  <p class="price" aria-label="Harga Rp 100 ribu per bulan">Rp 100.000 / bulan</p>
+  <ul class="features">
+    <li>Uptime 99.9%</li>
+    <li>Bandwidth unlimited</li>
+    <li>SSL Gratis</li>
+    <li>Backup harian otomatis</li>
+  </ul>
+  <button class="pay-btn" type="button" aria-describedby="payment-instruction">Bayar Sekarang</button>
+  <p id="payment-instruction" class="sr-only">Klik tombol bayar sekarang untuk melanjutkan pembayaran jasa hosting.</p>
+</div>
+
+<footer>
+  &copy; 2024 Jasa Hosting Terpercaya
+</footer>
+
+<script>
+  document.querySelector('.pay-btn').addEventListener('click', () => {
+    // This could be replaced with integration to payment gateway
+    alert('Terima kasih telah memilih jasa hosting kami! Anda akan diarahkan ke halaman pembayaran.');
+  });
+</script>
+
+<style>
+  .sr-only {
+    position: absolute !important;
+    width: 1px !important;
+    height: 1px !important;
+    padding: 0 !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    clip: rect(0, 0, 0, 0) !important;
+    border: 0 !important;
+  }
+</style>
+
+</body>
+</html>
+
+```
